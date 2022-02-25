@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  font-family: 'Playfair Display', serif;
+  color: #616161;
+  margin-top: 10vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+}
+
+.middle {
+  /* border: 1px dashed blue; */
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(24, 1fr);
+  grid-template-columns: repeat(17, 1fr);
+  grid-template-rows: repeat(24, 2vw);
+
+}
+
+/*#top {
+  color: #2e2e2e;
+  margin-bottom: 5vh;
+  text-align: center;
+  font-weight: 900;
+  font-size: 4rem;
+}*/
+
+.red {
+  background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/141013104244-hendrix4.jpg');
+  background-size: cover;
+  /* background: red; */
+  /* border: 2px dashed yellow;*/
+  grid-column: 2/7;
+  grid-row: 2/12;
+  /*opacity: 0.6;*/
+  z-index: -10;
+}
+
+
+.yellow {
+  background-image: url('https://s3-us-west-2.amazonaws.com/photoawardscom/upload/2007/large/8-46189-12_IPA_dreamtheaterbw3.jpg');
+  background-size: cover;
+  /*border: 2px dashed red;*/
+  grid-column: 6/12;
+  grid-row: 8/22;
+  /*opacity: 0.6;*/
+  z-index: 10;
+}
+
+.pink {
+  background-image: url('https://wallpapercave.com/wp/wp1964011.jpg');
+  background-size: cover;
+  /*border: 2px dashed black;*/
+  grid-column: 11/16;
+  grid-row: 14/24;
+  /*opacity: 0.6;*/
+  z-index: 100;
+}
+
+.brown {
+  /*background-color: brown;*/
+  text-align: left;
+  /*border: 2px dashed yellow;*/
+  grid-column: 2/6;
+  grid-row: 12/20;
+  /*opacity: 0.6;*/
+  font-size: 1.1vw;
+  padding: 1.5vh;
+  z-index: 100;
+}
+
+.purple {
+  /*background-color: purple;*/
+  text-align: left;
+  /*border: 2px dashed cyan;*/
+  grid-column: 7/12;
+  grid-row: 3/8;
+  /*opacity: 0.6;*/
+  font-size: 1.1vw;
+  padding: 1.5vh;
+  z-index: 100;
+}
+
+.blue {
+  /*background-color: blue;*/
+  text-align: left;
+  /*border: 2px dashed red;*/
+  grid-column: 12/17;
+  grid-row: 4/15;
+  /*opacity: 0.6;*/
+  font-size: 1.1vw;
+  padding: 1.5vh;
+  z-index: 100;
+}
+
+.cyan {
+  /*background-color: blue;*/
+  text-align: left;
+  /*border: 2px dashed red;*/
+  grid-column: 12/17;
+  grid-row: 1/5;
+  text-align: right;
+  font-weight: 900;
+  font-size: 2vw !important;
+  color: #2e2e2e;
+  /*opacity: 0.6;*/
+  font-size: 1.1vw;
+  padding: 1.5vh;
+  z-index: 100;
+}
+
+.subhead {
+  font-weight: 700;
+  font-size: 1vw;
+}
